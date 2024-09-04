@@ -1,5 +1,5 @@
+# Ezequiel Lopes
 # Sistema de Decodificação de Código Morse
-
 Foi desenvolvido um sistema de decodificação de código Morse com três implementações, chamadas de `One`, `Two` e `Three`:
 
 - **Versão One**: A versão mais simples, criada com o objetivo de dividir a mensagem em palavras e, em seguida, em letras para realizar a decodificação.
