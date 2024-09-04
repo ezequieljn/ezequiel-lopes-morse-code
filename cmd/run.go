@@ -29,8 +29,7 @@ func Run() error {
 	}
 	if *mode == "http" {
 		slog.Info("Running HTTP")
-		httpHandler := adaptersHttp.NewHttpHandler(decoderService)
-		http.HandleFunc("POST /", httpHandler.DecodeMorse)
+		http.HandleFunc("POST /", adaptersHttp.DecodeHandler(*version, *space))
 		slog.Info(fmt.Sprintf("Servidor HTTP rodando na porta :%s", *port))
 		if err := http.ListenAndServe(fmt.Sprintf(":%s", *port), nil); err != nil {
 			slog.Error(err.Error())
