@@ -30,8 +30,13 @@ O sistema pode ser iniciado de duas maneiras:
 
 - `-version`: Indica qual versão (`one` padrão, `two` ou `three`) será utilizada no processo.
 - `-decode`: Caso o `-mode` seja CLI, este parâmetro define o código Morse a ser decodificado.
-- `-space`: Define a forma de espaçamento entre as palavras (padrão ou /).
 - `-port`: Caso utilize `HTTP`, é possível alterar a porta.
+- `-space`: Define a forma de espaçamento entre as palavras (padrão "   " ou /).
+`três espaços` ou `espaço barra espaço`
+```bash
+-space=" / "
+-space="   "
+```
 
 
 ### Exemplo CLI
