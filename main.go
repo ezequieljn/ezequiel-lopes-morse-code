@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/ezequieljn/ezequiel-lopes-morse-code/cmd"
+	"github.com/ezequieljn/morse-code/cmd"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ezequieljn/ezequiel-lopes-morse-code/application"
+	"github.com/ezequieljn/morse-code/application"
 )
 
 type HttpHandler struct {

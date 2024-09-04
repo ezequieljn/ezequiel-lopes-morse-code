@@ -3,7 +3,7 @@ package morse_test
 import (
 	"testing"
 
-	"github.com/ezequieljn/ezequiel-lopes-morse-code/pkg/morse"
+	"github.com/ezequieljn/morse-code/pkg/morse"
 	"github.com/stretchr/testify/assert"
 )
 

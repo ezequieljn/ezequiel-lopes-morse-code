@@ -3,7 +3,7 @@ package cli
 import (
 	"log/slog"
 
-	"github.com/ezequieljn/ezequiel-lopes-morse-code/application"
+	"github.com/ezequieljn/morse-code/application"
 )
 
 type CLI struct {

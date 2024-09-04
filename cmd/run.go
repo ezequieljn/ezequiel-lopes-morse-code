@@ -6,9 +6,9 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/ezequieljn/ezequiel-lopes-morse-code/adapters/cli"
-	adaptersHttp "github.com/ezequieljn/ezequiel-lopes-morse-code/adapters/http"
-	"github.com/ezequieljn/ezequiel-lopes-morse-code/application"
+	"github.com/ezequieljn/morse-code/adapters/cli"
+	adaptersHttp "github.com/ezequieljn/morse-code/adapters/http"
+	"github.com/ezequieljn/morse-code/application"
 )
 
 func Run() error {

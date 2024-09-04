@@ -1,4 +1,4 @@
-module github.com/ezequieljn/ezequiel-lopes-morse-code
+module github.com/ezequieljn/morse-code
 
 go 1.22.5
 

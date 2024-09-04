@@ -4,7 +4,7 @@ import (
 	"errors"
 	"log/slog"
 
-	"github.com/ezequieljn/ezequiel-lopes-morse-code/pkg/morse"
+	"github.com/ezequieljn/morse-code/pkg/morse"
 )
 
 type DecoderService interface {
